@@ -1,25 +1,15 @@
-import logo from './logo.svg';
+// asset import 
 import './App.css';
-
+import Favourites from './moviesComponent/Favourites';
+// import Todo from "./TodoComponent/Todo";
+import Movies from "./moviesComponent/Movies"; 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Todo></Todo>
+    <Movies></Movies>
+    
+
   );
 }
-
+// default -> need to export App component 
 export default App;

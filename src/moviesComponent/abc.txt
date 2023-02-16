@@ -1,0 +1,2 @@
+let response = await fetch
+                ("https://api.themoviedb.org/3/trending/movie/week?api_key=16e7df484a81f634d85b2f25f938585d&page=" + props.pageNo);
